@@ -39,12 +39,12 @@ input[type="email"] {
 }
 
 /* Question 8 */
-#important{
+#important {
     border: 3px dashed #00f
 }
 
 /* Question 9 */
-div p{
+div p {
     font-size: 30px;
 }
 
@@ -54,20 +54,45 @@ input[type="email"] {
 }
 
 /* Question 11 */
-div:nth-of-type(3) P{
+div:nth-of-type(3) P {
     background-color: hotpink;
 }
 
 /* Question 12 */
-div:nth-of-type(3) p:nth-of-type(2){
+div:nth-of-type(3) p:nth-of-type(2) {
     border: 7px solid rgb(255, 255, 255);
 }
 
 /* Question 13 */
 div:nth-of-type(3) em {
-    color:seashell;
+    color: seashell;
     font: 25px;
 }
 
+/* Bonus */
+/* 1 */
+input:checked {
+    margin-left: 40px;
+}
 
+/* 2 */
+label {
+    text-transform: lowercase;
+}
+
+/* 3 */
+#important::first-letter{
+    color:limegreen;
+    font-size: 90px;
+}
+
+/* 4 */
+h1:hover{
+    color: navy;
+}
+
+/* 5 */
+a:visited {
+    color: silver;
+}
 
